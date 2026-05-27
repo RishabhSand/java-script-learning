@@ -3,11 +3,19 @@ let age= 19
 let gender = 1
 let loggenIn = true
 
-
+//Primitive :-
 // boolean= true/false
 // null => standalone value
 // undefined => not defined
-//symbol => unique
+// symbol => unique
+// string
+// Number
+// Bigint
+
+
+//Non primitive datatypes (reference) :-
+// arrays, object, Functions
+
 
 
 
