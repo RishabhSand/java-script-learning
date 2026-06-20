@@ -37,6 +37,20 @@ const obj2 = {3:"c", 4:"d"};
 // console.log(obj3);
 
 
-console.log(Object.keys(instaUser)); // gives all the keys of the object
-console.log(Object.values(instaUser)); // gives all the values of the object
-console.log(Object.entries(instaUser)); // gives all the key value pairs of the object
+// console.log(Object.keys(instaUser)); // gives all the keys of the object
+// console.log(Object.values(instaUser)); // gives all the values of the object
+// console.log(Object.entries(instaUser)); // gives all the key value pairs of the object
+
+
+
+ const game = {
+    gamename: "God of war",
+    Publishername: "Sony",
+    Price: 7000,
+ }
+
+ const {gamename: name} = game; // deconstructing method, i can now call name instead of gamename to get the desired value.
+ console.log(name)
+
+
+ 
