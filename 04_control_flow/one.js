@@ -44,5 +44,3 @@ if(userloggedin && debitcard){ // both conditions should be true
 if(loggedinfromgoogle || loggedinfromemail){ // either of the condition should be true
     console.log("you can log in");
 }
-
-
