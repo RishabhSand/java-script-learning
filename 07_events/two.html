@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: black; color: aliceblue; " >
+    
+    <h1>My name is Rishabh</h1>
+    <button id="stop">stop</button>
+
+    <script>
+       const Rishabh = function(){
+        console.log("2")
+       }
+    //    setTimeout(Rishabh,2000)
+    
+       const changeText = function(){
+        // document.querySelector("h1").innerHTML= "I love coding";
+        console.log(" i love coding");
+       
+       }
+
+       const changeME = setTimeout(changeText,2000)
+
+    const stop = 
+        document.getElementById("stop").addEventListener("click",function(e){
+         clearTimeout(changeME)   
+         console.log("stopped")
+        }, false)
+    
+    
+   
+
+    </script>
+</body>
+</html>
